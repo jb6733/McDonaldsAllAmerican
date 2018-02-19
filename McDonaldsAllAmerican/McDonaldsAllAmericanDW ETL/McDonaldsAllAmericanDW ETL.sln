@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "McDonaldsAllAmericanDW ETL", "McDonaldsAllAmericanDW ETL\McDonaldsAllAmericanDW ETL.dtproj", "{959017DD-1D64-4785-B2A8-FD7C34AA1C41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{959017DD-1D64-4785-B2A8-FD7C34AA1C41}.Development|Default.ActiveCfg = Development
+		{959017DD-1D64-4785-B2A8-FD7C34AA1C41}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

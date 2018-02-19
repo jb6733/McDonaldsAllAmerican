@@ -1,0 +1,225 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="20de2b2e-0617-44a7-a41a-db3f071d8f77" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim College</ID>
+  <Name>Dim College</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1294" scrolltop="-2892" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6738" y="8731" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCollege" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4110" height="2946" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00000e100000820b0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimCollege" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1294</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2892</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5b9939ec-6c78-4f5a-8267-67a99979d3bb">
+    <DataSourceViewID>Mc Donalds All American DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="54e14312-b34f-4a1c-87b1-1aafcd39e5ad">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="b923852b-f0a1-4726-861c-556e258f88ec">
+      <ID>Dim College ID</ID>
+      <Name>Dim College ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="57dcc7c7-4c4a-4bed-93c4-54a44ef1af63">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bce61a3-dfa5-4225-9193-d318cebc5643">
+            <TableID>dbo_DimCollege</TableID>
+            <ColumnID>DimCollegeID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d74b2eb5-6faf-4a25-b6f3-eae7c5158751">
+          <AttributeID>College</AttributeID>
+          <Name>College</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="85812ce3-23e3-4339-b322-e2b46ce0596a">
+          <AttributeID>College City</AttributeID>
+          <Name>College City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d46924ce-c84a-4487-8018-6632b1355f53">
+          <AttributeID>College State Code</AttributeID>
+          <Name>College State Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b34e2da2-068f-44dd-94df-6d2f7536d1ab">
+          <AttributeID>College State Region</AttributeID>
+          <Name>College State Region</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b50f137e-d6c7-427b-a4d3-3871a929c869">
+          <AttributeID>College State Sub Region</AttributeID>
+          <Name>College State Sub Region</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7385a950-1c16-474c-8bf7-3618d73eafb3">
+      <ID>College</ID>
+      <Name>College</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="932e8b5f-906f-4935-b230-92bf2aeed60e">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="795c1c11-50bc-468c-98ac-535bbd4e15bf">
+            <TableID>dbo_DimCollege</TableID>
+            <ColumnID>College</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="95be92be-9ba9-41e7-af16-f0982fd0dde6">
+      <ID>College City</ID>
+      <Name>College City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="29462ade-9836-44ef-8dfb-a25ea6f1ec85">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="61beb334-b3da-40b1-86bd-5ffade27649f">
+            <TableID>dbo_DimCollege</TableID>
+            <ColumnID>CollegeCity</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6fd807c0-b38e-45d2-80a9-445082b5e704">
+      <ID>College State Code</ID>
+      <Name>College State Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b54cb9cf-3890-49eb-a54b-0d9b1b3cf81b">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a30d142a-9d48-4970-a174-b3bf876c128c">
+            <TableID>dbo_DimCollege</TableID>
+            <ColumnID>CollegeStateCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="013bdcd6-b3ae-4ba5-959f-f1f644fb7b24">
+      <ID>College State Region</ID>
+      <Name>College State Region</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f329075-ffd8-45d5-ab0a-5aa8dd8c0a11">
+          <DataType>WChar</DataType>
+          <DataSize>16</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a531b99e-36db-4f48-8fe0-4b2326a8bdfa">
+            <TableID>dbo_DimCollege</TableID>
+            <ColumnID>CollegeStateRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e06f5cfc-12e7-4e81-9730-e250c8b66553">
+      <ID>College State Sub Region</ID>
+      <Name>College State Sub Region</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c3285181-5e2f-47c9-b2e6-bfd257bf6fd4">
+          <DataType>WChar</DataType>
+          <DataSize>32</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="607bae15-45bd-431e-bdfe-394e86dccc70">
+            <TableID>dbo_DimCollege</TableID>
+            <ColumnID>CollegeStateSubRegion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="c813f401-514b-43a2-b361-9894bae4f586">
+      <ID>Hierarchy</ID>
+      <Name>Hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="5299eec1-8df0-4356-aa7b-f91ccf3635be">
+          <ID>College State Region</ID>
+          <Name>College State Region</Name>
+          <SourceAttributeID>College State Region</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="9eb6c13b-e776-4cec-b838-8423055e0bb5">
+          <ID>College State Code</ID>
+          <Name>College State Code</Name>
+          <SourceAttributeID>College State Code</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="182be511-5e93-49a8-95cc-157601f3cf50">
+          <ID>College</ID>
+          <Name>College</Name>
+          <SourceAttributeID>College</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>McDonaldsAllAmerican</Database>
+    <Server>localhost\foundation</Server>
+    <ConnectionString>Data Source=localhost\foundation;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>0zfs0pllbbDpSB5BO53Ia2CyFVI=2/5/2018 9:00:47 PM2/5/2018 9:00:47 PM</TimeStamp>
+        <ID>
+          <String>Mc Donalds All American DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>HcafZjvmn+heDuWhoSzeaFYRk1w=2/5/2018 9:04:27 PM2/5/2018 9:01:22 PM</TimeStamp>
+        <ID>
+          <String>Mc Donalds All American DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iL7IZnrP786ByNBkF9QYNLtlxDA=2/5/2018 9:04:27 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim High School</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tUKTEIGiO0CVGxFGS03FvJHHcy4=2/5/2018 9:08:47 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Position</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CtxLx0OgsZnolCh9cHzLao7hy/c=2/5/2018 9:09:42 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Weight</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3BQnkMbhlD8dOihW8ilR9cEiBes=2/5/2018 9:10:56 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Birth City</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>RjxCReZ8MbmtJN97taxpvRMx6D0=2/5/2018 9:11:23 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Height</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Eu5bzqslbbY8NTH94dvZJSAWTmA=2/5/2018 9:12:20 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim College</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>fSh65kOc5XsQSz3NJXdiOhoLosE=2/5/2018 9:13:00 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Dim Year</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Se7bQlxs+Rp8yvsJSs+IZkJonhI=2/5/2018 9:14:14 PM2/5/2018 9:14:14 PM</TimeStamp>
+        <ID>
+          <String>Player</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>nro/pMvPtepqHmlQCOEgsBF5JmU=2/5/2018 9:16:24 PM2/5/2018 9:01:59 PMwMVky/Lx4CnKsqgkV75PB3XujjM=2/5/2018 9:01:59 PM2/5/2018 9:01:59 PM</TimeStamp>
+        <ID>
+          <String>Mc Donalds All American DW</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>31YUb5VsGkq80qkK7geuO1IGAXY=2/5/2018 8:59:51 PM2/5/2018 8:59:51 PM</TimeStamp>
+      <ID>
+        <String>McDonaldsAllAmerican</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2018-02-06T20:48:16.546667Z</LastDeployed>
+</DeploymentSnapshot>
